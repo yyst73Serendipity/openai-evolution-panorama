@@ -1,40 +1,49 @@
 # OpenAI 产品与模型演进全景
 
-一个从 2015 年 OpenAI 成立延伸至当前检查日的中文交互式全景网页，聚合模型、ChatGPT、API / Agents、Codex、多模态、订阅与迁移治理的重要官方更新。
+一个从 2015 年 OpenAI 成立延伸至当前检查日的中文交互式全景网页，系统梳理模型、ChatGPT、API / Agents、Codex、多模态、订阅计划与迁移治理的重要官方更新。
 
 ## ✨ 功能介绍
 
 - 以结构化时间线呈现 OpenAI 产品与模型演进，首版收录 121 条重要官方事件。
-- 首版覆盖 2015-12-11 至 2026-10-20 的官方历史资料，并单独显示“资料核验截止日”和“最后一条已确认事件”。
+- 覆盖 2015-12-11 至 2026-10-20 的官方历史资料，并分别显示“资料核验截止日”和“最后一条已确认事件”。
 - 区分模型体系、ChatGPT 产品、API / Agents、Codex、多模态、订阅计划、技术基础与迁移治理八条轨道。
 - 每条事件说明发布时间、更新内容、相对变化、优化重点、可用范围、战略意义和官方来源。
-- 支持关键词、年份、类别、产品线、模型家族、时间排序和最近 30 天组合筛选，筛选状态可写入 URL hash。
+- 支持关键词、年份、类别、产品线、模型家族、时间排序和最近 30 天组合筛选；筛选状态可写入 URL hash。
 - 提供模型谱系、ChatGPT 能力层、API / Agents、Codex、多模态、订阅与计费、迁移提示、战略转折和来源索引等专题视图。
 - 支持深浅主题、键盘操作、响应式布局、打印样式和减少动态效果偏好。
-- 最终生成单文件 HTML：样式、脚本和数据全部内嵌，可离线查看，不依赖 CDN 或运行时网络请求。
-- GitHub Actions 每日检查 OpenAI 官方来源；只有完整测试通过才更新数据并发布 GitHub Pages。
-- 自动发现的事件明确标记为“自动收录”，避免与人工核验内容混淆。
+- 最终生成单文件 HTML：样式、脚本和数据全部内嵌，可离线查看，不依赖 CDN、外部字体、外部脚本或运行时请求。
+- GitHub Actions 每天北京时间 08:15 检查 OpenAI 官方来源；只有构建与全部测试通过后才提交变化并发布 GitHub Pages。
+- 自动发现事件使用“自动收录”标识，监控页摘要变化使用“页面变更”标识，与人工核验内容明确区分。
 
 ## 📁 项目目录结构
 
 ```text
 .
-├── .github/workflows/                         # 自动更新、测试与 Pages 发布
-├── docs/superpowers/                          # 设计文档与实施计划
+├── .github/
+│   └── workflows/
+│       └── update-openai-panorama.yml         # 每日更新、验证、提交与 Pages 发布
+├── docs/
+│   └── superpowers/
+│       ├── plans/                              # 实施计划
+│       └── specs/                              # 设计说明
 ├── outputs/
 │   └── openai-chatgpt-evolution-panorama.html # 可离线打开的最终单文件网页
 ├── tests/
-│   ├── test-openai-evolution-panorama.py      # 网页结构、交互、安全与离线特性测试
-│   └── test-timeline-data.py                  # 历史数据契约测试
+│   ├── test-auto-update.py                     # 来源解析、失败边界与原子写入测试
+│   ├── test-openai-evolution-panorama.py       # 网页结构、交互、安全与离线特性测试
+│   ├── test-timeline-data.py                   # 历史数据契约测试
+│   └── test-workflow-static.py                 # Actions 权限、步骤与发布边界测试
 ├── work/
-│   ├── build-page.py                          # 数据校验与单文件 HTML 构建器
-│   └── timeline-data.json                     # 时间线单一事实源
+│   ├── build-page.py                           # 数据校验与单文件 HTML 构建器
+│   ├── source-config.json                      # 官方发现源与监控页配置
+│   ├── source-state.json                       # 已知 URL 与页面摘要状态
+│   ├── timeline-data.json                      # 时间线单一事实源
+│   └── update-openai-panorama.py               # 官方来源自动更新器
 ├── .gitignore
 ├── AGENTS.md
+├── CHANGELOG.md                                # 自动新增事件审计日志
 └── README.md
 ```
-
-> 自动更新器、状态文件、变更日志和工作流文件会在后续实施阶段加入并同步到本节。
 
 ## 🧰 技术栈
 
@@ -47,6 +56,20 @@
 项目不引入第三方运行时依赖，不需要 OpenAI API Key。
 
 ## 🚀 安装和使用方式
+
+### 手动检查官方来源
+
+```bash
+python3 work/update-openai-panorama.py
+```
+
+补跑或复核指定日期：
+
+```bash
+python3 work/update-openai-panorama.py --today 2026-10-20
+```
+
+更新器会先完成全部来源读取、数据校验与单次新增上限检查，再原子替换时间线和状态文件。必需来源失败时不会覆盖旧数据；可选页面被 Cloudflare 阻止时只输出警告。
 
 ### 生成网页
 
@@ -75,8 +98,12 @@ http://127.0.0.1:8765/openai-chatgpt-evolution-panorama.html
 ### 运行测试
 
 ```bash
-python3 -m unittest tests/test-timeline-data.py -v
-python3 -m unittest tests/test-openai-evolution-panorama.py -v
+python3 -m unittest \
+  tests/test-timeline-data.py \
+  tests/test-openai-evolution-panorama.py \
+  tests/test-auto-update.py \
+  tests/test-workflow-static.py \
+  -v
 ```
 
 检查内嵌 JavaScript 语法：
@@ -97,14 +124,47 @@ PY
 node --check /tmp/openai-panorama-script.js
 ```
 
-### 数据范围与证据原则
+## 🔄 自动更新与发布
 
-- 主要来源：OpenAI 官网新闻与研究文章、OpenAI 官方 RSS、产品 Release Notes、Help Center、OpenAI Developers 文档与 Changelog。
-- 官方 X 账号只用于官网缺失历史日期时人工补充，不作为定时任务的主发现源。
-- `sitemap.xml` 的 `lastmod` 可能只是站点重新生成时间，不能直接视为文章发布日期；发布日优先采用文章正文、RSS `pubDate` 或官方 Release Notes。
-- 截止日期表示“资料核验到该日”，不强行要求截止日当天必须存在一条产品发布。
-- 无法从官方原始资料确认的传闻、占位更新和推测性指标不收录。
-- ChatGPT 计划和 API 价格会因地区、计费方式和发布时间变化；离线页保存结构与计费口径，并引导读者前往官方页面复核，不伪装为实时价格。
+工作流 `.github/workflows/update-openai-panorama.yml` 支持：
+
+- 每天 `00:15 UTC`，即北京时间 `08:15` 自动执行；也可在 GitHub Actions 中手动触发。
+- 运行官方来源检查、单文件网页构建、内嵌 JavaScript 语法检查和全部 `unittest`。
+- 只允许自动提交 `work/timeline-data.json`、`work/source-state.json`、最终 HTML 和 `CHANGELOG.md`，不提交其他文件。
+- 生成 `site/index.html`、可下载的原文件副本和 `.nojekyll`，随后通过 GitHub Pages Actions 发布。
+- 使用固定并发组，避免两个发布任务同时修改或覆盖 Pages。
+
+预期发布地址：
+
+```text
+https://yyst73serendipity.github.io/openai-evolution-panorama/
+```
+
+## 🔎 来源层级与证据原则
+
+### 必需来源
+
+- OpenAI News RSS：发现官方新闻、研究和产品文章。
+- OpenAI Sitemap：发现新增官方页面；`lastmod` 只用于缩小检查范围，不作为发布日期。
+- OpenAI Developers Changelog、Models、Pricing，以及 Platform Deprecations：监控 API、模型、价格和迁移页面变化。
+
+### 可选来源
+
+- OpenAI 统一 Release Notes、ChatGPT / Model Release Notes 和 ChatGPT Pricing。
+- 这些页面在 GitHub Actions 或普通 Python 请求中可能触发 Cloudflare 403；因此失败只告警，不阻断其余必需来源的更新与发布。
+- 自动任务不使用代理、CORS Proxy 或第三方内容转换服务，也不会绕过安全挑战。
+
+### 收录规则
+
+- 发布日优先采用文章正文 JSON-LD、RSS `pubDate`、Atom `published` / `updated` 或官方 Release Notes；不会把 sitemap `lastmod` 当成发布时间。
+- 自动内容只总结官方已发布信息，不推断未公开模型、能力、价格或时间表。
+- 无发布日期或发布日期晚于检查日的候选不会提前写入状态，避免正式发布后被永久跳过。
+- 同一官方 URL 会规范化并去重；自动事件完整标记 `autoGenerated: true`。
+- 单次自动新增超过 20 条即终止，防止来源结构变化造成批量误收录。
+- 监控页首次运行只建立摘要基线，后续稳定可见文本发生变化时才生成“页面变更”事件。
+- 时间线和状态通过临时文件加 `os.replace` 原子写入；必需来源失败时保留旧文件。
+- 截止日期表示“资料核验到该日”，不强行要求截止日当天必须存在产品发布。
+- ChatGPT 计划和 API 价格会随地区、计费方式和发布时间变化；离线页保留历史结构与计费口径，并提示读者回到官方页面复核。
 
 ## 📄 License 与贡献
 

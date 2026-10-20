@@ -1,0 +1,145 @@
+{
+  "timezone": "Asia/Shanghai",
+  "userAgent": "openai-evolution-panorama/1.0 (+https://github.com/yyst73Serendipity/openai-evolution-panorama)",
+  "allowedHosts": [
+    "openai.com",
+    "www.openai.com",
+    "help.openai.com",
+    "developers.openai.com",
+    "platform.openai.com",
+    "learn.chatgpt.com",
+    "chatgpt.com"
+  ],
+  "discoverySources": [
+    {
+      "name": "OpenAI News RSS",
+      "label": "OpenAI News",
+      "type": "rss",
+      "url": "https://openai.com/news/rss.xml",
+      "required": true,
+      "requiredKeywords": [
+        "gpt",
+        "chatgpt",
+        "codex",
+        "api",
+        "agent",
+        "model",
+        "sora",
+        "image",
+        "voice",
+        "audio",
+        "realtime",
+        "responses",
+        "subscription",
+        "pricing",
+        "deprecation",
+        "safety",
+        "openai"
+      ]
+    },
+    {
+      "name": "OpenAI Sitemap",
+      "label": "OpenAI",
+      "type": "sitemap",
+      "url": "https://openai.com/sitemap.xml",
+      "required": true,
+      "pathPrefixes": [
+        "/index/",
+        "/research/",
+        "/safety/"
+      ],
+      "requiredKeywords": [
+        "gpt",
+        "chatgpt",
+        "codex",
+        "api",
+        "agent",
+        "model",
+        "sora",
+        "image",
+        "voice",
+        "audio",
+        "realtime",
+        "responses",
+        "subscription",
+        "pricing",
+        "deprecation",
+        "safety"
+      ]
+    }
+  ],
+  "monitoredPages": [
+    {
+      "name": "OpenAI Release Notes",
+      "label": "OpenAI Release Notes",
+      "url": "https://openai.com/products/release-notes",
+      "required": false,
+      "category": "技术基础",
+      "track": "技术基础",
+      "family": ""
+    },
+    {
+      "name": "OpenAI Developers Changelog",
+      "label": "OpenAI Developers",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "required": true,
+      "category": "API",
+      "track": "API / Agents",
+      "family": ""
+    },
+    {
+      "name": "ChatGPT Release Notes",
+      "label": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "required": false,
+      "category": "ChatGPT",
+      "track": "ChatGPT 产品",
+      "family": ""
+    },
+    {
+      "name": "Model Release Notes",
+      "label": "OpenAI Help Center",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "required": false,
+      "category": "模型",
+      "track": "模型体系",
+      "family": "GPT"
+    },
+    {
+      "name": "OpenAI API Pricing",
+      "label": "OpenAI Developers",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "required": true,
+      "category": "订阅",
+      "track": "订阅计划",
+      "family": ""
+    },
+    {
+      "name": "OpenAI API Deprecations",
+      "label": "OpenAI Platform",
+      "url": "https://platform.openai.com/docs/deprecations",
+      "required": true,
+      "category": "安全",
+      "track": "迁移与治理",
+      "family": ""
+    },
+    {
+      "name": "ChatGPT Pricing",
+      "label": "ChatGPT",
+      "url": "https://chatgpt.com/pricing",
+      "required": false,
+      "category": "订阅",
+      "track": "订阅计划",
+      "family": ""
+    },
+    {
+      "name": "OpenAI Models",
+      "label": "OpenAI Developers",
+      "url": "https://developers.openai.com/api/docs/models",
+      "required": true,
+      "category": "模型",
+      "track": "模型体系",
+      "family": "GPT"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+#
+# 每日检查 OpenAI 官方来源，验证并生成单文件全景网页，然后提交变化并发布 GitHub Pages。
+#
+name: 更新并发布 OpenAI 演进全景
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: openai-panorama-pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v7
+
+      - name: 配置 Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: 配置 Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: 检查官方来源
+        run: python3 work/update-openai-panorama.py
+
+      - name: 生成单文件网页
+        run: python3 work/build-page.py
+
+      - name: 检查内嵌 JavaScript
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          html = Path("outputs/openai-chatgpt-evolution-panorama.html").read_text(encoding="utf-8")
+          scripts = re.findall(
+              r'<script(?![^>]*type="application/json")[^>]*>(.*?)</script>',
+              html,
+              re.S,
+          )
+          Path("/tmp/openai-panorama-script.js").write_text(
+              "\n".join(scripts),
+              encoding="utf-8",
+          )
+          PY
+          node --check /tmp/openai-panorama-script.js
+
+      - name: 运行全部测试
+        run: |
+          python3 -m unittest \
+            tests/test-timeline-data.py \
+            tests/test-openai-evolution-panorama.py \
+            tests/test-auto-update.py \
+            tests/test-workflow-static.py \
+            -v
+
+      - name: 提交自动更新结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- \
+            work/timeline-data.json \
+            work/source-state.json \
+            outputs/openai-chatgpt-evolution-panorama.html \
+            CHANGELOG.md
+          if git diff --cached --quiet; then
+            echo "没有需要提交的官方资料变化。"
+          else
+            git commit -m "更新: 自动同步 OpenAI 官方资料"
+            git push
+          fi
+
+      - name: 准备 Pages 静态文件
+        run: |
+          mkdir -p site
+          cp outputs/openai-chatgpt-evolution-panorama.html site/index.html
+          cp outputs/openai-chatgpt-evolution-panorama.html site/openai-chatgpt-evolution-panorama.html
+          touch site/.nojekyll
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: 上传 Pages 构建产物
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: 发布 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
