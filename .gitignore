@@ -1,0 +1,24 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 扩展 / 打包产物
+dist/
+build/
+node_modules/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+
+# Codex 个人覆盖
+AGENTS.override.md
