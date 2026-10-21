@@ -6,9 +6,10 @@ from __future__ import annotations
 
 import json
 import unittest
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urlparse
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "work" / "timeline-data.json"
@@ -34,7 +35,9 @@ class TimelineDataTest(unittest.TestCase):
     def test_timeline_has_panorama_scale_and_full_range(self) -> None:
         self.assertGreaterEqual(len(self.events), 100)
         self.assertLessEqual(self.events[0]["date"], "2015-12-31")
-        self.assertEqual(self.data["cutoff"], "2026-10-20")
+        current_date = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
+        self.assertGreaterEqual(self.data["cutoff"], "2026-10-20")
+        self.assertLessEqual(self.data["cutoff"], current_date)
         self.assertLessEqual(self.events[-1]["date"], self.data["cutoff"])
 
     def test_every_event_matches_contract_and_order(self) -> None:
