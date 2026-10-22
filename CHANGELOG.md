@@ -1,5 +1,9 @@
 # 更新日志
 
+## 2026-10-22 自动更新
+
+- **2026-10-22 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
+
 ## 2026-10-21 自动更新
 
 - **2026-10-21 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
