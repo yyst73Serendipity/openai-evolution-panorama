@@ -1,5 +1,5 @@
 """
-验证 OpenAI 演进全景网页的内容规模、章节、交互、安全边界与离线单文件特性。
+验证 OpenAI 演进全景网页的内容规模、档案式信息架构、交互、安全边界与离线单文件特性。
 """
 
 from __future__ import annotations
@@ -41,6 +41,33 @@ class OpenAIPanoramaPageTest(unittest.TestCase):
             with self.subTest(section=section_id):
                 self.assertIn(f'id="{section_id}"', self.html)
 
+    def test_archive_hero_status_and_directory_exist(self) -> None:
+        for fragment in (
+            'id="archive-hero"',
+            'class="hero-era"',
+            'id="archive-status"',
+            'id="section-directory"',
+            'id="reading-progress"',
+            'data-section-target="timeline"',
+            'data-section-target="sources"',
+            'aria-label="章节目录"',
+        ):
+            with self.subTest(fragment=fragment):
+                self.assertIn(fragment, self.html)
+        self.assertNotIn('class="metrics"', self.html)
+
+    def test_timeline_is_prerendered_and_grouped_by_year(self) -> None:
+        years = sorted({event["date"][:4] for event in self.data["events"]})
+        self.assertEqual(self.html.count('class="event-card"'), len(self.data["events"]))
+        self.assertEqual(self.html.count('class="year-group"'), len(years))
+        for year in years:
+            with self.subTest(year=year):
+                self.assertIn(f'data-year="{year}"', self.html)
+                self.assertIn(f'id="timeline-{year}"', self.html)
+        self.assertIn('data-verification="页面变更"', self.html)
+        self.assertIn('class="badge auto"', self.html)
+        self.assertIn('class="badge verification"', self.html)
+
     def test_filter_controls_and_accessibility_exist(self) -> None:
         for control_id in (
             "search-input", "year-filter", "category-filter", "track-filter",
@@ -51,10 +78,55 @@ class OpenAIPanoramaPageTest(unittest.TestCase):
                 self.assertIn(f'id="{control_id}"', self.html)
         self.assertIn('class="skip-link"', self.html)
         self.assertIn('aria-live="polite"', self.html)
-        self.assertIn("function render()", self.html)
-        self.assertIn("function createEventCard(event)", self.html)
+        self.assertIn("function filterEvents()", self.html)
+        self.assertIn("function renderTimeline()", self.html)
         self.assertIn("function updateHash()", self.html)
         self.assertIn("function loadHash()", self.html)
+
+    def test_filter_chips_year_visibility_and_empty_state_exist(self) -> None:
+        for fragment in (
+            'id="active-filters"',
+            'id="timeline-empty"',
+            'data-clear-all',
+            "function filterEvents()",
+            "function renderFilterChips(filterState)",
+            "function clearFilter(key)",
+            "function renderTimeline()",
+            "group.hidden=visibleCount===0",
+        ):
+            with self.subTest(fragment=fragment):
+                self.assertIn(fragment, self.html)
+
+    def test_section_navigation_preserves_filter_hash(self) -> None:
+        for fragment in (
+            "function scrollToSection(sectionId)",
+            "function setActiveSection(sectionId)",
+            "function updateReadingProgress()",
+            "function setupSectionObserver()",
+            "function showLatestEvents()",
+            'id="back-to-top"',
+            "event.preventDefault()",
+            'link.setAttribute("aria-current","location")',
+            'window.addEventListener("scroll",updateReadingProgress',
+        ):
+            with self.subTest(fragment=fragment):
+                self.assertIn(fragment, self.html)
+
+    def test_topic_sections_use_distinct_archive_layouts(self) -> None:
+        for class_name in (
+            "lineage-list",
+            "capability-matrix",
+            "evolution-steps",
+            "media-matrix",
+            "comparison-table",
+            "source-index",
+        ):
+            with self.subTest(class_name=class_name):
+                self.assertIn(f'class="{class_name}', self.html)
+        self.assertIn("@media (max-width: 980px)", self.html)
+        self.assertIn("@media (max-width: 720px)", self.html)
+        self.assertIn("@media print", self.html)
+        self.assertIn("@media (prefers-reduced-motion: reduce)", self.html)
 
     def test_dynamic_metadata_and_representative_milestones_are_embedded(self) -> None:
         self.assertIn(self.data["cutoff"], self.html)
@@ -76,9 +148,9 @@ class OpenAIPanoramaPageTest(unittest.TestCase):
 
     def test_responsive_print_theme_and_reduced_motion_styles_exist(self) -> None:
         for fragment in (
-            "@media (max-width: 720px)", "@media (max-width: 420px)",
-            "@media print", "@media (prefers-reduced-motion: reduce)",
-            ":focus-visible", "color-scheme",
+            "@media (max-width: 980px)", "@media (max-width: 720px)",
+            "@media (max-width: 420px)", "@media print",
+            "@media (prefers-reduced-motion: reduce)", ":focus-visible", "color-scheme",
         ):
             with self.subTest(fragment=fragment):
                 self.assertIn(fragment, self.html)
