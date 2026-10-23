@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-22T16:27:31+08:00",
+  "lastChecked": "2026-10-23T12:57:08+08:00",
   "knownUrls": [
     "https://developers.openai.com/api/docs/changelog",
     "https://developers.openai.com/api/docs/models",
@@ -332,6 +332,7 @@
     "https://openai.com/index/daybreak-securing-the-world",
     "https://openai.com/index/debate",
     "https://openai.com/index/decagon",
+    "https://openai.com/index/decisions-api",
     "https://openai.com/index/deep-double-descent",
     "https://openai.com/index/deep-research",
     "https://openai.com/index/deep-research-system-card",
@@ -484,6 +485,7 @@
     "https://openai.com/index/five-new-stargate-sites",
     "https://openai.com/index/forecasting-misuse",
     "https://openai.com/index/formal-math",
+    "https://openai.com/index/forward-deployed-engineering-means",
     "https://openai.com/index/frontier-ai-regulation",
     "https://openai.com/index/frontier-alliance-partners",
     "https://openai.com/index/frontier-model-forum",
@@ -1256,6 +1258,7 @@
     "https://openai.com/index/two-years-of-openai-academy",
     "https://openai.com/index/typeform",
     "https://openai.com/index/uber",
+    "https://openai.com/index/uber-chatgpt-work-rollout",
     "https://openai.com/index/uber-enables-outstanding-experiences",
     "https://openai.com/index/ucb-exploration-via-q-ensembles",
     "https://openai.com/index/understanding-ai-and-learning-outcomes",
@@ -1328,9 +1331,9 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "607ed24d389bb6ad35a311661ab6f9121d071f23aab95741abe98ca72ab8d869",
-    "https://developers.openai.com/api/docs/pricing": "f287be7ec86f5a88efa6f305ba6d26c5239cfff14ebb468a344eb5bbe6da8623",
-    "https://platform.openai.com/docs/deprecations": "b8c27e9383d373e95e099d1b536627522ad4bcf4da11db59a3714d13b518af8b",
-    "https://developers.openai.com/api/docs/models": "e784623befaa600dcd5e2b776637126a80289bf4abc4f5647b02bb918ceaa2ff"
+    "https://developers.openai.com/api/docs/changelog": "05bfd850ffcdc183b2bd20acc2fe28568b74cfef2e2fdb5d946bf2d4b95f183c",
+    "https://developers.openai.com/api/docs/pricing": "5689b070a67d67f332ab0a4b59b7e04f94b36c12b92a8af57eb09cfc8349a775",
+    "https://platform.openai.com/docs/deprecations": "c7109df0f5f9141572ba470ab3bc0a11c42eec4f3444ccb2e76132abae354fe2",
+    "https://developers.openai.com/api/docs/models": "130524bd63300c8fd55bd4b26e183e1fb4a4d46a8f2751ea12da2b8eb038d62e"
   }
 }
