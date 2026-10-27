@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-26T12:53:16+08:00",
+  "lastChecked": "2026-10-27T13:11:40+08:00",
   "knownUrls": [
     "https://developers.openai.com/api/docs/changelog",
     "https://developers.openai.com/api/docs/models",
@@ -227,6 +227,7 @@
     "https://openai.com/index/building-codex-windows-sandbox",
     "https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone",
     "https://openai.com/index/building-openai-with-openai",
+    "https://openai.com/index/building-scientific-understanding-with-academic-communities",
     "https://openai.com/index/building-self-improving-tax-agents-with-codex",
     "https://openai.com/index/building-standards-next-phase-ai",
     "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
@@ -247,6 +248,7 @@
     "https://openai.com/index/chatgpt-can-now-see-hear-and-speak",
     "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
     "https://openai.com/index/chatgpt-enterprise-spend-controls",
+    "https://openai.com/index/chatgpt-expanding-world-of-work",
     "https://openai.com/index/chatgpt-for-academic-researchers",
     "https://openai.com/index/chatgpt-for-excel",
     "https://openai.com/index/chatgpt-for-teachers",
@@ -472,6 +474,7 @@
     "https://openai.com/index/extracting-concepts-from-gpt-4",
     "https://openai.com/index/factory",
     "https://openai.com/index/fanatics-betting-gaming-andrea-ellis",
+    "https://openai.com/index/fanatics-streamline-fan-experience",
     "https://openai.com/index/faster-physics-in-python",
     "https://openai.com/index/faulty-reward-functions",
     "https://openai.com/index/ffjord",
@@ -564,6 +567,7 @@
     "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex",
     "https://openai.com/index/gpt-5-system-card-sensitive-conversations",
     "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+    "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
     "https://openai.com/index/gpt-6-astra",
     "https://openai.com/index/gpt-6-astra-next-generation-work",
     "https://openai.com/index/gpt-6-for-everyone",
@@ -573,6 +577,7 @@
     "https://openai.com/index/grab",
     "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
     "https://openai.com/index/gradient-labs",
+    "https://openai.com/index/greptile-code-review-codex-astra",
     "https://openai.com/index/group-chats-in-chatgpt",
     "https://openai.com/index/grupo-folha-grupo-uol-partnership",
     "https://openai.com/index/gym-retro",
@@ -696,6 +701,7 @@
     "https://openai.com/index/introducing-gpt-5-5",
     "https://openai.com/index/introducing-gpt-5-for-developers",
     "https://openai.com/index/introducing-gpt-6-1-sol",
+    "https://openai.com/index/introducing-gpt-6-1-terra",
     "https://openai.com/index/introducing-gpt-6-sol-and-luna",
     "https://openai.com/index/introducing-gpt-live",
     "https://openai.com/index/introducing-gpt-live-1-in-the-api",
@@ -934,6 +940,7 @@
     "https://openai.com/index/openai-certificate-courses",
     "https://openai.com/index/openai-codex",
     "https://openai.com/index/openai-contract-data-agent",
+    "https://openai.com/index/openai-cut-incident-investigation",
     "https://openai.com/index/openai-cybersecurity-grant-program",
     "https://openai.com/index/openai-deutschland",
     "https://openai.com/index/openai-elon-musk",
@@ -1334,9 +1341,9 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "04e69687ac3aca64e6fa84621ee751a1b58e97a2c02d95024e4549b3daaec02b",
-    "https://developers.openai.com/api/docs/pricing": "d42f24cacfdf8d4d8cd1d2a6cf4427f4f2b488f5226c481b138e2802b3e9b1d4",
-    "https://platform.openai.com/docs/deprecations": "21051eb639b37343488d4b98bf934e1a5d2f29c8f54b3142f5528b7904a275a9",
-    "https://developers.openai.com/api/docs/models": "55ba9d00cabf09983bd7664c88291690595b83060f515cb82cfaa2fc0c72c233"
+    "https://developers.openai.com/api/docs/changelog": "24a91f5dad2fb131bc9eecd16bc9d45275bc14d0f7960a8d555b285570b2651e",
+    "https://developers.openai.com/api/docs/pricing": "874e36bbec5dce181ae7acfcf762af97c8ff9762520ab2e7ebde1b0b06d7f05c",
+    "https://platform.openai.com/docs/deprecations": "454399c57947290e5783a4afc69ffb3260d421f75dc5a2c5279e8ed84a729032",
+    "https://developers.openai.com/api/docs/models": "ee3847cab74a52c9007f52c7122a4ba56ecdbf2b6137ca32b46289a9531cf3a6"
   }
 }
