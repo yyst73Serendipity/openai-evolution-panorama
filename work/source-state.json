@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-27T13:11:40+08:00",
+  "lastChecked": "2026-10-28T13:48:13+08:00",
   "knownUrls": [
     "https://developers.openai.com/api/docs/changelog",
     "https://developers.openai.com/api/docs/models",
@@ -161,6 +161,7 @@
     "https://openai.com/index/amazon-partnership",
     "https://openai.com/index/amp-beyond-coding",
     "https://openai.com/index/an-alien-mind",
+    "https://openai.com/index/anima",
     "https://openai.com/index/announcing-devday-2025",
     "https://openai.com/index/announcing-openai-devday",
     "https://openai.com/index/announcing-the-stargate-project",
@@ -263,6 +264,7 @@
     "https://openai.com/index/chatgpt-study-mode",
     "https://openai.com/index/chatgpt-whatsapp-transition",
     "https://openai.com/index/chatham-financial",
+    "https://openai.com/index/check-point-daybreak",
     "https://openai.com/index/child-safety-adopting-sbd-principles",
     "https://openai.com/index/chime-vineet-mehra",
     "https://openai.com/index/choco",
@@ -579,6 +581,7 @@
     "https://openai.com/index/gradient-labs",
     "https://openai.com/index/greptile-code-review-codex-astra",
     "https://openai.com/index/group-chats-in-chatgpt",
+    "https://openai.com/index/grupo-boticario",
     "https://openai.com/index/grupo-folha-grupo-uol-partnership",
     "https://openai.com/index/gym-retro",
     "https://openai.com/index/hackathon-follow-up",
@@ -809,6 +812,7 @@
     "https://openai.com/index/lenfest-ai-collaborative-expansion",
     "https://openai.com/index/lenfest-institute",
     "https://openai.com/index/lifespan",
+    "https://openai.com/index/localiza-generative-ai",
     "https://openai.com/index/loveholidays",
     "https://openai.com/index/low-resource-programming-languages",
     "https://openai.com/index/lowes",
@@ -1007,6 +1011,7 @@
     "https://openai.com/index/operator-system-card",
     "https://openai.com/index/optimizing-chatgpt",
     "https://openai.com/index/oracle",
+    "https://openai.com/index/oracle-apps-in-chatgpt",
     "https://openai.com/index/organizational-update",
     "https://openai.com/index/oscar",
     "https://openai.com/index/our-agreement-with-the-department-of-war",
@@ -1341,9 +1346,9 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "24a91f5dad2fb131bc9eecd16bc9d45275bc14d0f7960a8d555b285570b2651e",
-    "https://developers.openai.com/api/docs/pricing": "874e36bbec5dce181ae7acfcf762af97c8ff9762520ab2e7ebde1b0b06d7f05c",
-    "https://platform.openai.com/docs/deprecations": "454399c57947290e5783a4afc69ffb3260d421f75dc5a2c5279e8ed84a729032",
-    "https://developers.openai.com/api/docs/models": "ee3847cab74a52c9007f52c7122a4ba56ecdbf2b6137ca32b46289a9531cf3a6"
+    "https://developers.openai.com/api/docs/changelog": "bb63c73555e8e617faa0c9910492e79ae0161baf0218144a214e56e2e8e0106d",
+    "https://developers.openai.com/api/docs/pricing": "8097f4c0a675910d9f34c591393578376ab5c8effca29afb8f47b50e025d2ffe",
+    "https://platform.openai.com/docs/deprecations": "b71a08909d529ecaa9eeac8572c32865ea494c0d2a1816499bbb5e14249d5bdd",
+    "https://developers.openai.com/api/docs/models": "a14abd28d3e8c967ccee84cb4e0afe239de5fbbc063e831c419c23c605e7fa57"
   }
 }
