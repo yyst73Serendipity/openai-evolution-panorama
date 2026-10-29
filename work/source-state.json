@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-28T13:48:13+08:00",
+  "lastChecked": "2026-10-29T13:53:11+08:00",
   "knownUrls": [
     "https://developers.openai.com/api/docs/changelog",
     "https://developers.openai.com/api/docs/models",
@@ -808,6 +808,7 @@
     "https://openai.com/index/learning-to-summarize-with-human-feedback",
     "https://openai.com/index/learning-with-opponent-learning-awareness",
     "https://openai.com/index/legalon-halves-codex-costs",
+    "https://openai.com/index/legora",
     "https://openai.com/index/legora-financial-statement-review-with-astra",
     "https://openai.com/index/lenfest-ai-collaborative-expansion",
     "https://openai.com/index/lenfest-institute",
@@ -997,6 +998,7 @@
     "https://openai.com/index/openai-scholars-2020",
     "https://openai.com/index/openai-scholars-2020-final-projects",
     "https://openai.com/index/openai-scholars-2021-final-projects",
+    "https://openai.com/index/openai-servicenow-partnership-expansion",
     "https://openai.com/index/openai-submits-confidential-s-1",
     "https://openai.com/index/openai-summer-fellows-2018",
     "https://openai.com/index/openai-support-model",
@@ -1244,6 +1246,7 @@
     "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
     "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
     "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+    "https://openai.com/index/the-future-of-the-firm",
     "https://openai.com/index/the-instruction-hierarchy",
     "https://openai.com/index/the-international-2018-results",
     "https://openai.com/index/the-met-museum",
@@ -1346,9 +1349,9 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "bb63c73555e8e617faa0c9910492e79ae0161baf0218144a214e56e2e8e0106d",
-    "https://developers.openai.com/api/docs/pricing": "8097f4c0a675910d9f34c591393578376ab5c8effca29afb8f47b50e025d2ffe",
-    "https://platform.openai.com/docs/deprecations": "b71a08909d529ecaa9eeac8572c32865ea494c0d2a1816499bbb5e14249d5bdd",
-    "https://developers.openai.com/api/docs/models": "a14abd28d3e8c967ccee84cb4e0afe239de5fbbc063e831c419c23c605e7fa57"
+    "https://developers.openai.com/api/docs/changelog": "d2c595a9d99df7aa8da27bac9cef6d499f3cd1e575cec13dacce85b2c5d83e47",
+    "https://developers.openai.com/api/docs/pricing": "27d8e436e6dd42ac21e9c5d301b83503369eb965930f17762be15a346f2171d7",
+    "https://platform.openai.com/docs/deprecations": "4ce0290dbbdbc68ad35c7a11a8c33d1e3a1e35670b35318086f46b70bebc9c42",
+    "https://developers.openai.com/api/docs/models": "0716e664660b5e96538b0699652cbb08f5fecae616d90f22017f5bffeb22c4da"
   }
 }
