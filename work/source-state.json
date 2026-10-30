@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-29T13:53:11+08:00",
+  "lastChecked": "2026-10-30T13:54:26+08:00",
   "knownUrls": [
     "https://developers.openai.com/api/docs/changelog",
     "https://developers.openai.com/api/docs/models",
@@ -626,6 +626,7 @@
     "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
     "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
     "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment",
     "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
     "https://openai.com/index/how-we-will-do-better-for-australia",
     "https://openai.com/index/hp-frontier-partnership",
@@ -1112,6 +1113,7 @@
     "https://openai.com/index/robots-that-learn",
     "https://openai.com/index/robust-adversarial-inputs",
     "https://openai.com/index/rogo",
+    "https://openai.com/index/ropes-gray-ai-diligence",
     "https://openai.com/index/rox",
     "https://openai.com/index/running-codex-safely",
     "https://openai.com/index/safety-alignment-long-horizon-models",
@@ -1294,6 +1296,7 @@
     "https://openai.com/index/update-on-mental-health-related-work",
     "https://openai.com/index/update-on-safety-and-security-practices",
     "https://openai.com/index/update-on-the-openai-foundation",
+    "https://openai.com/index/updated-model-spec",
     "https://openai.com/index/updating-model-spec-with-teen-protections",
     "https://openai.com/index/updating-our-preparedness-framework",
     "https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model",
@@ -1349,9 +1352,9 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "d2c595a9d99df7aa8da27bac9cef6d499f3cd1e575cec13dacce85b2c5d83e47",
-    "https://developers.openai.com/api/docs/pricing": "27d8e436e6dd42ac21e9c5d301b83503369eb965930f17762be15a346f2171d7",
-    "https://platform.openai.com/docs/deprecations": "4ce0290dbbdbc68ad35c7a11a8c33d1e3a1e35670b35318086f46b70bebc9c42",
-    "https://developers.openai.com/api/docs/models": "0716e664660b5e96538b0699652cbb08f5fecae616d90f22017f5bffeb22c4da"
+    "https://developers.openai.com/api/docs/changelog": "3ce9dc12379f1180d400a94bd8b598e3c8da0b039e40ad4c04242436b4fbc923",
+    "https://developers.openai.com/api/docs/pricing": "d8eeae0d624aadd38883d866b88c1754c3d8c8848a8f2fd3f66a03bd0ab72a25",
+    "https://platform.openai.com/docs/deprecations": "a459aaea6977b1022c2ec0b8898c75abcfe9c5fd2a6e2d5cd9a3d5090b9a9acf",
+    "https://developers.openai.com/api/docs/models": "6cfe9a8f9edb401950e599cf12cfdcd7e6bc7a8d2610cb369bcc194d3947ce1c"
   }
 }
