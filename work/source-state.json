@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-30T13:54:26+08:00",
+  "lastChecked": "2026-10-31T13:50:15+08:00",
   "knownUrls": [
     "https://developers.openai.com/api/docs/changelog",
     "https://developers.openai.com/api/docs/models",
@@ -291,6 +291,7 @@
     "https://openai.com/index/color-health",
     "https://openai.com/index/combating-online-child-sexual-exploitation-abuse",
     "https://openai.com/index/commonwealth-bank-of-australia",
+    "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
     "https://openai.com/index/competitive-self-play",
     "https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results",
     "https://openai.com/index/computer-using-agent",
@@ -309,6 +310,7 @@
     "https://openai.com/index/court-rejects-elon",
     "https://openai.com/index/creating-with-sora-safely",
     "https://openai.com/index/cred-swamy-seetharaman",
+    "https://openai.com/index/credit-saison",
     "https://openai.com/index/critiques",
     "https://openai.com/index/custom-instructions-for-chatgpt",
     "https://openai.com/index/customizing-gpt-3",
@@ -475,6 +477,7 @@
     "https://openai.com/index/extensions-and-limitations-of-the-neural-gpu",
     "https://openai.com/index/extracting-concepts-from-gpt-4",
     "https://openai.com/index/factory",
+    "https://openai.com/index/fair-use-benefits-everyone",
     "https://openai.com/index/fanatics-betting-gaming-andrea-ellis",
     "https://openai.com/index/fanatics-streamline-fan-experience",
     "https://openai.com/index/faster-physics-in-python",
@@ -601,6 +604,7 @@
     "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
     "https://openai.com/index/helping-people-when-they-need-it-most",
     "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+    "https://openai.com/index/helping-websites-express-ai-training-preferences",
     "https://openai.com/index/hex-gpt-6-astra",
     "https://openai.com/index/hibob",
     "https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents",
@@ -1352,9 +1356,9 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "3ce9dc12379f1180d400a94bd8b598e3c8da0b039e40ad4c04242436b4fbc923",
-    "https://developers.openai.com/api/docs/pricing": "d8eeae0d624aadd38883d866b88c1754c3d8c8848a8f2fd3f66a03bd0ab72a25",
-    "https://platform.openai.com/docs/deprecations": "a459aaea6977b1022c2ec0b8898c75abcfe9c5fd2a6e2d5cd9a3d5090b9a9acf",
-    "https://developers.openai.com/api/docs/models": "6cfe9a8f9edb401950e599cf12cfdcd7e6bc7a8d2610cb369bcc194d3947ce1c"
+    "https://developers.openai.com/api/docs/changelog": "4618f2bfdfe46cd9b22c4ae2b13caf06d359b68fb2a542a306bad020de19465a",
+    "https://developers.openai.com/api/docs/pricing": "6e01204747c1cd773bdc63fcb74c43b0fe061bdadbcc32bf4ba96ee2e82fc12c",
+    "https://platform.openai.com/docs/deprecations": "c0e8c4ae1ce2c61efb3fca97b2b5f122a89f9034a75e94568c58e7566ca2008f",
+    "https://developers.openai.com/api/docs/models": "d93371ea523cc0a6505a0487d0f2b6878a7959c4d5d75b11e5fd47290af04985"
   }
 }
