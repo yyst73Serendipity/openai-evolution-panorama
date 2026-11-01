@@ -1,5 +1,9 @@
 # 更新日志
 
+## 2026-11-01 自动更新
+
+- **2026-11-01 · 订阅**：[OpenAI API Pricing发生更新](https://developers.openai.com/api/docs/pricing)
+
 ## 2026-10-31 自动更新
 
 - **2026-10-31 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
