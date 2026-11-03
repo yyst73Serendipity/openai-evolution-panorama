@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-02T14:14:47+08:00",
+  "lastChecked": "2026-11-03T14:53:43+08:00",
   "knownUrls": [
     "https://developers.openai.com/api/docs/changelog",
     "https://developers.openai.com/api/docs/models",
@@ -329,6 +329,7 @@
     "https://openai.com/index/dall-e-introducing-outpainting",
     "https://openai.com/index/dall-e-now-available-in-beta",
     "https://openai.com/index/dall-e-now-available-without-waitlist",
+    "https://openai.com/index/dan-driscoll-joins-openai",
     "https://openai.com/index/data-partnerships",
     "https://openai.com/index/databricks",
     "https://openai.com/index/datadog",
@@ -583,6 +584,7 @@
     "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
     "https://openai.com/index/gradient-labs",
     "https://openai.com/index/greptile-code-review-codex-astra",
+    "https://openai.com/index/grid-protectors-program",
     "https://openai.com/index/group-chats-in-chatgpt",
     "https://openai.com/index/grupo-boticario",
     "https://openai.com/index/grupo-folha-grupo-uol-partnership",
@@ -818,6 +820,7 @@
     "https://openai.com/index/lenfest-ai-collaborative-expansion",
     "https://openai.com/index/lenfest-institute",
     "https://openai.com/index/lifespan",
+    "https://openai.com/index/lifeval",
     "https://openai.com/index/localiza-generative-ai",
     "https://openai.com/index/loveholidays",
     "https://openai.com/index/low-resource-programming-languages",
@@ -1070,6 +1073,7 @@
     "https://openai.com/index/premium-seats-chatgpt-business",
     "https://openai.com/index/preparing-for-future-ai-capabilities-in-biology",
     "https://openai.com/index/preparing-for-malicious-uses-of-ai",
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
     "https://openai.com/index/preply",
     "https://openai.com/index/previewing-gpt-5-6-sol",
     "https://openai.com/index/previewing-ultrafast",
@@ -1086,6 +1090,7 @@
     "https://openai.com/index/put-data-to-work",
     "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
     "https://openai.com/index/pvh-future-of-fashion",
+    "https://openai.com/index/qodo-codex-plugin",
     "https://openai.com/index/quantifying-generalization-in-reinforcement-learning",
     "https://openai.com/index/radisson",
     "https://openai.com/index/rakuten",
@@ -1110,6 +1115,7 @@
     "https://openai.com/index/retro-contest",
     "https://openai.com/index/retro-contest-results",
     "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai",
+    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
     "https://openai.com/index/ringcentral",
     "https://openai.com/index/ringg",
     "https://openai.com/index/rl2",
@@ -1136,6 +1142,7 @@
     "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
     "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
     "https://openai.com/index/scaling-coordinated-vulnerability-disclosure",
+    "https://openai.com/index/scaling-git-at-openai",
     "https://openai.com/index/scaling-kubernetes-to-2500-nodes",
     "https://openai.com/index/scaling-kubernetes-to-7500-nodes",
     "https://openai.com/index/scaling-laws-for-neural-language-models",
@@ -1356,9 +1363,9 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "4618f2bfdfe46cd9b22c4ae2b13caf06d359b68fb2a542a306bad020de19465a",
-    "https://developers.openai.com/api/docs/pricing": "d7231b9314cce50085863094f9c1ed8faebb4a67e0a08d209f9274ecd7911047",
-    "https://platform.openai.com/docs/deprecations": "c0e8c4ae1ce2c61efb3fca97b2b5f122a89f9034a75e94568c58e7566ca2008f",
-    "https://developers.openai.com/api/docs/models": "d93371ea523cc0a6505a0487d0f2b6878a7959c4d5d75b11e5fd47290af04985"
+    "https://developers.openai.com/api/docs/changelog": "69c2c42c511cbd506ad8695010f33fcdd49ffbbca55de62e22ee418e20796ca7",
+    "https://developers.openai.com/api/docs/pricing": "40caea504dbce501aa73e35ebee586a7b1475685224ad4f3f24b613b9d4ad2fa",
+    "https://platform.openai.com/docs/deprecations": "b4bb39e316eabde96c07ece1ecec469fef26009a17da8461fdc750aa913710cb",
+    "https://developers.openai.com/api/docs/models": "7c4087cc7b1413739295793870df2d19db0bbb672358a12340a48a1ae9acfebb"
   }
 }
