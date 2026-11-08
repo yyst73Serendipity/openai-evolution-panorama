@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-07T14:04:02+08:00",
+  "lastChecked": "2026-11-08T14:08:39+08:00",
   "knownUrls": [
     "https://chatgpt.com/pricing",
     "https://developers.openai.com/api/docs/changelog",
@@ -1383,10 +1383,10 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "a59ebf7ea06ada7cef72bdf172c9934e9ab3b2b968b59df8673ebd770ee9841b",
-    "https://developers.openai.com/api/docs/pricing": "f66ed4a6a801fd43ec7d584c014c88cb4fe6bbaf5baa563400c1bf7e0ddbe92a",
-    "https://platform.openai.com/docs/deprecations": "c3f7742c1532a226a648dceb331c91d70cb40c7be30690f553aee6d9ea96846e",
-    "https://developers.openai.com/api/docs/models": "cb009000ec2ed1edacaceffe525a958e51d03f03e878e07e474217f719637282",
+    "https://developers.openai.com/api/docs/changelog": "6afbd8ed1c8a6d49dd43447835a8ad6bd7051720c1a61aa686190de12b463702",
+    "https://developers.openai.com/api/docs/pricing": "15b6b70142c8652234f731c0798df1950c7c8eab3867fa46a08ae1c032795b32",
+    "https://platform.openai.com/docs/deprecations": "bc3b20c277313f8a2ede6207b1f19792d61c43c4522f5ea1c9611c004bfe66af",
+    "https://developers.openai.com/api/docs/models": "ed9615f0c9518bc00d5d601e5e45fd61e2bd38539ac0834eded8fbf8006b7bfe",
     "https://chatgpt.com/pricing": "a30ebf54e68ead18ef65cd742adf29fa37f7c2e8d331f35abedf441f83980ed6"
   }
 }
