@@ -1,5 +1,22 @@
 # 更新日志
 
+## 2026-11-11 自动更新
+
+- **2026-11-09 · API**：[Kuken Industries searches 70 years of drawings in minutes](https://openai.com/index/kuken)
+- **2026-11-09 · Codex**：[CodeRabbit scales agentic software development and ships 20x more](https://openai.com/index/coderabbit-codex-daybreak)
+- **2026-11-09 · 安全**：[Control Room: A central system to track and stop model workloads across our research infrastructure](https://openai.com/index/control-room)
+- **2026-11-09 · 订阅**：[ChatGPT Enterprise now available in AWS Marketplace](https://openai.com/index/chatgpt-enterprise-aws-marketplace)
+- **2026-11-10 · ChatGPT**：[Helping caregivers use AI in everyday life](https://openai.com/index/helping-caregivers-use-ai-in-everyday-life)
+- **2026-11-10 · ChatGPT**：[Introducing Businesses in ChatGPT](https://openai.com/index/introducing-businesses-chatgpt)
+- **2026-11-10 · 技术基础**：[Closing the AI guidance gap in education](https://openai.com/index/closing-ai-guidance-gap-education)
+- **2026-11-10 · 技术基础**：[Work at the Frontier: AI’s effect on freelance work](https://openai.com/index/ai-effect-on-freelance-work)
+- **2026-11-10 · 订阅**：[Cogent and OpenAI build cyber defense factories for enterprises](https://openai.com/index/cogent-security)
+- **2026-11-11 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
+- **2026-11-11 · 安全**：[OpenAI API Deprecations发生更新](https://platform.openai.com/docs/deprecations)
+- **2026-11-11 · 模型**：[OpenAI Models发生更新](https://developers.openai.com/api/docs/models)
+- **2026-11-11 · 订阅**：[ChatGPT Plus for veterans and servicemembers](https://openai.com/index/chatgpt-plus-for-veterans)
+- **2026-11-11 · 订阅**：[OpenAI API Pricing发生更新](https://developers.openai.com/api/docs/pricing)
+
 ## 2026-11-08 自动更新
 
 - **2026-11-08 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
