@@ -1,5 +1,15 @@
 # 更新日志
 
+## 2026-11-13 自动更新
+
+- **2026-11-12 · Codex**：[Gondola doubles revenue as its team builds more with Codex](https://openai.com/business/customer-stories/gondola)
+- **2026-11-12 · Codex**：[Holiday Extras is rethinking what it can build with Codex](https://openai.com/business/customer-stories/holidays-extras-codex)
+- **2026-11-12 · 模型**：[How Amplitude ships product improvements in 1–2 days with OpenAI](https://openai.com/business/customer-stories/amplitude)
+- **2026-11-13 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
+- **2026-11-13 · 安全**：[OpenAI API Deprecations发生更新](https://platform.openai.com/docs/deprecations)
+- **2026-11-13 · 模型**：[OpenAI Models发生更新](https://developers.openai.com/api/docs/models)
+- **2026-11-13 · 订阅**：[OpenAI API Pricing发生更新](https://developers.openai.com/api/docs/pricing)
+
 ## 2026-11-11 自动更新
 
 - **2026-11-09 · API**：[Kuken Industries searches 70 years of drawings in minutes](https://openai.com/index/kuken)

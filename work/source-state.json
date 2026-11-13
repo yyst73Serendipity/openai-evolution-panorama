@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-11T14:32:53+08:00",
+  "lastChecked": "2026-11-13T14:50:48+08:00",
   "knownUrls": [
     "https://chatgpt.com/pricing",
     "https://developers.openai.com/api/docs/changelog",
@@ -40,7 +40,10 @@
     "https://openai.com/ads/customers/evernote",
     "https://openai.com/ads/customers/flipsnack",
     "https://openai.com/business/customer-stories/ada",
+    "https://openai.com/business/customer-stories/amplitude",
     "https://openai.com/business/customer-stories/blue-j",
+    "https://openai.com/business/customer-stories/gondola",
+    "https://openai.com/business/customer-stories/holidays-extras-codex",
     "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
     "https://openai.com/business/fine-tuning-gpt-4o-webinar",
     "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
@@ -282,6 +285,7 @@
     "https://openai.com/index/chatham-financial",
     "https://openai.com/index/check-point-daybreak",
     "https://openai.com/index/child-safety-adopting-sbd-principles",
+    "https://openai.com/index/children-first-declaration",
     "https://openai.com/index/chime-vineet-mehra",
     "https://openai.com/index/choco",
     "https://openai.com/index/circles",
@@ -542,6 +546,7 @@
     "https://openai.com/index/genmab",
     "https://openai.com/index/genspark",
     "https://openai.com/index/gilbert-tobin",
+    "https://openai.com/index/gilbert-tobin-sam-nickless",
     "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
     "https://openai.com/index/glow",
     "https://openai.com/index/gotta-learn-fast",
@@ -811,6 +816,7 @@
     "https://openai.com/index/jetbrains",
     "https://openai.com/index/jetbrains-2025",
     "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "https://openai.com/index/jiostar-vijay-seshadri",
     "https://openai.com/index/john-deere-justin-rose",
     "https://openai.com/index/joint-statement-from-openai-and-microsoft",
     "https://openai.com/index/jukebox",
@@ -1207,6 +1213,7 @@
     "https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization",
     "https://openai.com/index/simplex",
     "https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models",
+    "https://openai.com/index/singapore-airlines-travel-work",
     "https://openai.com/index/singular-bank",
     "https://openai.com/index/small-business-ai-jam",
     "https://openai.com/index/snowflake-partnership",
@@ -1400,10 +1407,10 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "394720c847cc71c9cd853a44fd7e37038b2d17e3ad200de488fe8b7e4b0320c2",
-    "https://developers.openai.com/api/docs/pricing": "4418af4f971df1f0f6ddfa214cc73984ea87007cc9ab737da75555369a288a8b",
-    "https://platform.openai.com/docs/deprecations": "00ada46c97506cb2a4de6405ce6f5b8415c508061267ac862611ed8ec252aa52",
-    "https://developers.openai.com/api/docs/models": "48821d110204e2089e47a8189cf4e3243aa55081ca456a8d2a9604d13d3df0a2",
+    "https://developers.openai.com/api/docs/changelog": "b9e62b211de2072af27819fc00aa7c7dae547b04ba908e038b4795c6914163cb",
+    "https://developers.openai.com/api/docs/pricing": "af7f78bf3450ef7579b9e63437f2f4a413db565cf2ab22e18af7bd10a1978995",
+    "https://platform.openai.com/docs/deprecations": "f729f1a01f6e94e12da8f8e0c5adb481c693a83d4ad3867d416346cbf4e2e768",
+    "https://developers.openai.com/api/docs/models": "c2cf636148a5bce3cddd843dbefe05340580fd9cdebfd3704fac56f3f81975ec",
     "https://chatgpt.com/pricing": "a30ebf54e68ead18ef65cd742adf29fa37f7c2e8d331f35abedf441f83980ed6"
   }
 }
