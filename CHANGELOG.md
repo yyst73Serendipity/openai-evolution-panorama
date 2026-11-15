@@ -1,5 +1,12 @@
 # 更新日志
 
+## 2026-11-15 自动更新
+
+- **2026-11-15 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
+- **2026-11-15 · 安全**：[OpenAI API Deprecations发生更新](https://platform.openai.com/docs/deprecations)
+- **2026-11-15 · 模型**：[OpenAI Models发生更新](https://developers.openai.com/api/docs/models)
+- **2026-11-15 · 订阅**：[OpenAI API Pricing发生更新](https://developers.openai.com/api/docs/pricing)
+
 ## 2026-11-13 自动更新
 
 - **2026-11-12 · Codex**：[Gondola doubles revenue as its team builds more with Codex](https://openai.com/business/customer-stories/gondola)

@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-13T14:50:48+08:00",
+  "lastChecked": "2026-11-15T14:40:20+08:00",
   "knownUrls": [
     "https://chatgpt.com/pricing",
     "https://developers.openai.com/api/docs/changelog",
@@ -44,6 +44,7 @@
     "https://openai.com/business/customer-stories/blue-j",
     "https://openai.com/business/customer-stories/gondola",
     "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "https://openai.com/business/customer-stories/shield",
     "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
     "https://openai.com/business/fine-tuning-gpt-4o-webinar",
     "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
@@ -724,6 +725,7 @@
     "https://openai.com/index/introducing-chatgpt-search",
     "https://openai.com/index/introducing-chatgpt-small-business-program",
     "https://openai.com/index/introducing-chatgpt-team",
+    "https://openai.com/index/introducing-chatgpt-wallet",
     "https://openai.com/index/introducing-child-safety-blueprint",
     "https://openai.com/index/introducing-codex",
     "https://openai.com/index/introducing-company-knowledge",
@@ -1407,10 +1409,10 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "b9e62b211de2072af27819fc00aa7c7dae547b04ba908e038b4795c6914163cb",
-    "https://developers.openai.com/api/docs/pricing": "af7f78bf3450ef7579b9e63437f2f4a413db565cf2ab22e18af7bd10a1978995",
-    "https://platform.openai.com/docs/deprecations": "f729f1a01f6e94e12da8f8e0c5adb481c693a83d4ad3867d416346cbf4e2e768",
-    "https://developers.openai.com/api/docs/models": "c2cf636148a5bce3cddd843dbefe05340580fd9cdebfd3704fac56f3f81975ec",
+    "https://developers.openai.com/api/docs/changelog": "ca27e0d0fe777f983a321e6ca35136b3099a03556d93ab868dc37ff34d334bf8",
+    "https://developers.openai.com/api/docs/pricing": "f99fe5a5c921d436e54db82fbd883f139d887ad10471198297346c8dee643de3",
+    "https://platform.openai.com/docs/deprecations": "2c5686a321534edd01e4db495396c4c4064b81c588a0c7194addfe28385a78f3",
+    "https://developers.openai.com/api/docs/models": "c830bfb418278298bc01d730110463db60d6db98f6c03693adb990468dbd8995",
     "https://chatgpt.com/pricing": "a30ebf54e68ead18ef65cd742adf29fa37f7c2e8d331f35abedf441f83980ed6"
   }
 }
