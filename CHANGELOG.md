@@ -1,5 +1,21 @@
 # 更新日志
 
+## 2026-11-19 自动更新
+
+- **2026-11-17 · ChatGPT**：[Introducing ChatGPT for Sales](https://openai.com/index/introducing-chatgpt-for-sales)
+- **2026-11-17 · Codex**：[Introducing GPT-6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol)
+- **2026-11-17 · 技术基础**：[Introducing OpenAI for Chile](https://openai.com/index/introducing-openai-for-chile)
+- **2026-11-17 · 订阅**：[Astra for Law leads in legal intelligence](https://openai.com/index/astra-law-6-2)
+- **2026-11-18 · ChatGPT**：[Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT](https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership)
+- **2026-11-18 · Codex**：[Inside the Codex sandbox](https://openai.com/index/inside-the-codex-sandbox)
+- **2026-11-18 · 模型**：[Advancing chip design with OpenAI models](https://openai.com/index/advancing-chip-design-with-our-models)
+- **2026-11-18 · 模型**：[Managing frontier AI risk: From training to deployment](https://openai.com/index/managing-frontier-ai-risk)
+- **2026-11-18 · 订阅**：[How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise](https://openai.com/business/customer-stories/sumitomo-life)
+- **2026-11-19 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
+- **2026-11-19 · 安全**：[OpenAI API Deprecations发生更新](https://platform.openai.com/docs/deprecations)
+- **2026-11-19 · 模型**：[OpenAI Models发生更新](https://developers.openai.com/api/docs/models)
+- **2026-11-19 · 订阅**：[OpenAI API Pricing发生更新](https://developers.openai.com/api/docs/pricing)
+
 ## 2026-11-16 自动更新
 
 - **2026-11-16 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
