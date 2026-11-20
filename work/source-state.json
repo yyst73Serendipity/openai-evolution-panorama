@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-19T15:31:39+08:00",
+  "lastChecked": "2026-11-20T15:22:46+08:00",
   "knownUrls": [
     "https://chatgpt.com/pricing",
     "https://developers.openai.com/api/docs/changelog",
@@ -62,11 +62,14 @@
     "https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai",
     "https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report",
     "https://openai.com/business/learn/automate-complex-workflows-with-openai-o3",
+    "https://openai.com/business/learn/codex-security-plugin-demo",
     "https://openai.com/business/learn/collaborate-and-write-with-gpt-4o",
     "https://openai.com/business/learn/connect-internal-knowledge-from-google-drive",
     "https://openai.com/business/learn/create-on-brand-visuals-with-image-generation",
     "https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt",
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
     "https://openai.com/business/learn/delegate-work-to-chatgpt-agent",
+    "https://openai.com/business/learn/deploying-daybreak-red",
     "https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar",
     "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
     "https://openai.com/business/learn/gpt-5-our-best-model-for-work",
@@ -76,6 +79,7 @@
     "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
     "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
     "https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions",
+    "https://openai.com/business/learn/pr-scans-demo",
     "https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt",
     "https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt",
     "https://openai.com/business/learn/strategic-planning-with-chatgpt",
@@ -668,6 +672,7 @@
     "https://openai.com/index/how-enterprises-put-ai-to-work",
     "https://openai.com/index/how-news-organizations-are-using-ai",
     "https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections",
+    "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
     "https://openai.com/index/how-people-are-using-chatgpt",
     "https://openai.com/index/how-should-ai-systems-behave",
     "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen",
@@ -1435,10 +1440,10 @@
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "0144116609c9548c0a6e7e018a60b01e76dff31cc2c74b75a825e3213ff46b87",
-    "https://developers.openai.com/api/docs/pricing": "e179c5c9f5a8ca88a1e482b47dfe725f15070bf679b30b81725db454e90cdde7",
-    "https://platform.openai.com/docs/deprecations": "23926c064b4ba116d3787d417551594662eed42bdaf568b461184b7244c6b082",
-    "https://developers.openai.com/api/docs/models": "f13e88f99534c20b7246ee8a2ed8b618dd4e9b8c10d3857b274103a424573a69",
+    "https://developers.openai.com/api/docs/changelog": "7ac20b956a51fa1927827c467e253b34bbf566c88d83b6ac9598dde59b43ef99",
+    "https://developers.openai.com/api/docs/pricing": "13e88f880fbb6026d9502a829356f103051ec464ca2d74924450aead1c7d8914",
+    "https://platform.openai.com/docs/deprecations": "218d34d2716c0cfbe3767968c97cb1b7b59f0d2395d536e58047d8a6a7fc36bd",
+    "https://developers.openai.com/api/docs/models": "1d37969872cd891c0be401c8b4e92d7287f0baacdc7fa7d2de4ca3f64059cd07",
     "https://chatgpt.com/pricing": "a30ebf54e68ead18ef65cd742adf29fa37f7c2e8d331f35abedf441f83980ed6"
   }
 }

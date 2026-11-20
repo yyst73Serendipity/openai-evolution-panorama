@@ -1,5 +1,12 @@
 # 更新日志
 
+## 2026-11-20 自动更新
+
+- **2026-11-20 · API**：[OpenAI Developers Changelog发生更新](https://developers.openai.com/api/docs/changelog)
+- **2026-11-20 · 安全**：[OpenAI API Deprecations发生更新](https://platform.openai.com/docs/deprecations)
+- **2026-11-20 · 模型**：[OpenAI Models发生更新](https://developers.openai.com/api/docs/models)
+- **2026-11-20 · 订阅**：[OpenAI API Pricing发生更新](https://developers.openai.com/api/docs/pricing)
+
 ## 2026-11-19 自动更新
 
 - **2026-11-17 · ChatGPT**：[Introducing ChatGPT for Sales](https://openai.com/index/introducing-chatgpt-for-sales)
