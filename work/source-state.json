@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-20T15:22:46+08:00",
+  "lastChecked": "2026-11-21T15:15:59+08:00",
   "knownUrls": [
     "https://chatgpt.com/pricing",
     "https://developers.openai.com/api/docs/changelog",
@@ -45,6 +45,7 @@
     "https://openai.com/business/customer-stories/amplitude",
     "https://openai.com/business/customer-stories/blue-j",
     "https://openai.com/business/customer-stories/gondola",
+    "https://openai.com/business/customer-stories/hebbia",
     "https://openai.com/business/customer-stories/holiday-extras-dots",
     "https://openai.com/business/customer-stories/holidays-extras-codex",
     "https://openai.com/business/customer-stories/revolut",
@@ -327,6 +328,7 @@
     "https://openai.com/index/collective-alignment-aug-2025-updates",
     "https://openai.com/index/color-health",
     "https://openai.com/index/combating-online-child-sexual-exploitation-abuse",
+    "https://openai.com/index/combatting-adversarial-distillation",
     "https://openai.com/index/commonwealth-bank-of-australia",
     "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
     "https://openai.com/index/competitive-self-play",
@@ -779,6 +781,7 @@
     "https://openai.com/index/introducing-intelligence-age",
     "https://openai.com/index/introducing-life-sci-bench",
     "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+    "https://openai.com/index/introducing-medchembench",
     "https://openai.com/index/introducing-mentalhealthbench",
     "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
     "https://openai.com/index/introducing-nextgenai",
@@ -1436,14 +1439,18 @@
     "https://openai.com/index/zenken",
     "https://openai.com/index/zico-kolter-joins-openais-board-of-directors",
     "https://openai.com/openai-o1-contributions",
+    "https://openai.com/products/release-notes",
     "https://openai.com/signals/research/2026q1-update",
     "https://platform.openai.com/docs/deprecations"
   ],
   "pageHashes": {
-    "https://developers.openai.com/api/docs/changelog": "7ac20b956a51fa1927827c467e253b34bbf566c88d83b6ac9598dde59b43ef99",
-    "https://developers.openai.com/api/docs/pricing": "13e88f880fbb6026d9502a829356f103051ec464ca2d74924450aead1c7d8914",
-    "https://platform.openai.com/docs/deprecations": "218d34d2716c0cfbe3767968c97cb1b7b59f0d2395d536e58047d8a6a7fc36bd",
-    "https://developers.openai.com/api/docs/models": "1d37969872cd891c0be401c8b4e92d7287f0baacdc7fa7d2de4ca3f64059cd07",
-    "https://chatgpt.com/pricing": "a30ebf54e68ead18ef65cd742adf29fa37f7c2e8d331f35abedf441f83980ed6"
+    "https://developers.openai.com/api/docs/changelog": "917a9efa64e33c2918d5511bb14f5013310960619b0a969123d9c0711d144320",
+    "https://developers.openai.com/api/docs/pricing": "a5679f5eb76e391805e210c14b28eb25d838f9cd1c5c7b1e0d9a4de623ff45ce",
+    "https://platform.openai.com/docs/deprecations": "2060b94cb0115026cc4323a61cfd7366d4ae62c02340994f11e07ca7f9e07cf4",
+    "https://developers.openai.com/api/docs/models": "ff6d6ed214ba32197f2772c02a7c275ba8de503b2d00bb63c636754d51761dae",
+    "https://chatgpt.com/pricing": "a30ebf54e68ead18ef65cd742adf29fa37f7c2e8d331f35abedf441f83980ed6",
+    "https://openai.com/products/release-notes": "7234c62d5a812c649e9865499c45d6611d3e8f5f5eb18faed2a74f4dfdd0c847",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes": "4763aee8d7198e4a3d78a1f5bf970442403977dc5f829cff3fc2d2ca17e8cbd9",
+    "https://help.openai.com/en/articles/9624314-model-release-notes": "bd6c55ef395959af07c6b694a0e89d5dffd81ba8a9a831c5346feac962bf19a2"
   }
 }
